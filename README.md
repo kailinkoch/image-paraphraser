@@ -23,8 +23,16 @@ I used 2 existing models.
 
 
 
-
 **Observations**
 * The image model outperforms the relatively simple caption model, and so you can see the images gradually shift to reflect the caption's content.
 * It's interesting how the caption model (which was not trained on generated images) struggles on the more unusual images.
 * An interesting next step could include training a caption model using generated images or re-trying this experiment with more conventional prompts
+
+## Update!
+I've posted an update [here](https://github.com/kailinkoch/data-sci-notebooks/blob/main/blip%20image%20paraphraser.ipynb) with the results using a new and improved caption model, BLIP. It is definitely producing more descriptive captions, but still gets distracted by other elements of the images. Below are the results on the original starting images and new images.
+
+<img width="559" alt="Screen Shot 2023-04-04 at 8 30 48 PM" src="https://user-images.githubusercontent.com/68975515/229974310-d56e06af-da00-43e1-984f-3f8a91e8486b.png">
+
+<img width="556" alt="Screen Shot 2023-04-04 at 8 31 10 PM" src="https://user-images.githubusercontent.com/68975515/229974300-207ed059-1258-44b7-aa47-0144803470da.png">
+
+
